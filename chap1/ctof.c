@@ -14,13 +14,14 @@ int main()
     upper = 150; /* upper bound for the table */
     step = 10; /* amount to step by */
 
-    printf(" C \t");
-    printf("   F   \n");
+    printf("%6s\t%5s\n", "C", "F");
+    /* printf(" C \t"); */
+    /* printf("   F   \n"); */
     cel = lower;
     while (cel <= upper) {
         fahr = (9.0 / 5.0 * cel) + 32.0;
         /* cel = (5.0 / 9.0) * (fahr - 32.0); */
-        printf("%6.0f\t%3.1f\n", cel, fahr);
+        printf("%6.0f\t%5.1f\n", cel, fahr);
         cel += step;
     }
 }
