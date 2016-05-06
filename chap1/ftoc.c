@@ -8,4 +8,8 @@ int main() {
     int lower;
     int upper;
     int step;
+
+    lower = 0; /* lower bound for the table */
+    upper = 300; /* upper bound for the table */
+    step = 20; /* amount to step by */
 }
