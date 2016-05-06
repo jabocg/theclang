@@ -14,6 +14,8 @@ int main()
     upper = 300; /* upper bound for the table */
     step = 20; /* amount to step by */
 
+    printf(" F \t");
+    printf("   C   \n");
     fahr = lower;
     while (fahr <= upper) {
         cel = (5.0 / 9.0) * (fahr - 32.0);
