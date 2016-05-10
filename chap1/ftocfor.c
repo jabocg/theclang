@@ -5,7 +5,7 @@
 int main() 
 {
     for (int i = 0; i < 300; i += 20) {
-        printf("%d\n", i);
+        printf("%d\t%f\n", i, (5.0 / 9.0) * (i - 32.0));
     }
 
 }
