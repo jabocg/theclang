@@ -4,7 +4,7 @@
  * for Fahrenheit 0, 20, ..., 300 */
 int main() 
 {
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 300; i += 20) {
         printf("%d\n", i);
     }
 
