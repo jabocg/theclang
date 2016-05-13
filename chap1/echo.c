@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /* echo program in sea */
 int main() 
 {
