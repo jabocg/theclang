@@ -2,5 +2,5 @@
 
 int main() 
 {
-    printf("Value of EOF:  %d", EOF);
+    printf("Value of EOF:  %d\n", EOF);
 }
