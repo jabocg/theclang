@@ -2,11 +2,10 @@
 
 int main() 
 {
-    long nc = 0;
+    double nc = 0;
 
-    while (getchar() != EOF) {
-        ++nc;
-    }
+    for (nc = 0; getchar() != EOF; ++nc)
+        ;
 
-    printf("count: %d\n", nc);
+    printf("count: %f\n", nc);
 }
